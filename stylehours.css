@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@1,900&display=swap');
+
+header{
+	margin: 0;
+	text-align: center;
+	color: black;
+    border: 1px solid #d3d3d3;
+    background-color: black;}
+.img-fluid{
+	display: block 0;
+	justify-content: center;
+	align-items: center;
+	width: 10%;
+	aspect-ratio: 3/2;
+	padding-top: 20px;
+
+}
+h1{
+	font-family: 'Libre Franklin', sans-serif;
+	text-align: center;
+	font-size: 4em;
+	text-color: #ff0000;
+}
+h2{
+	text-decoration: underline;
+	padding: 2em;
+	text-underline-offset: 1em;
+	color: white;
+	text-shadow: 2px 2px 2px black;
+}
+h3{
+	font-size: 2.5em;
+}
+
+}
+h4{
+	text-color: black;
+}
+p{
+	color: white;
+	text-shadow: 2px 2px 2px black;
+}
+main{
+	font-family: 'Libre Franklin', sans-serif;
+	max-width: 1200px;
+	margin: 20px auto;
+	text-color: white;
+
+}
+button class{
+	backgroound color: red;
+}
+body{
+	font-family: 'Libre Franklin', sans-serif;
+	margin: 0;
+	text-align: center;
+	padding: 0;
+	background:gray;
+}
+.logo{
+	position: absolute;
+	margin-top: 15px;
+	margin-left: 10px;
+}
+
+/* Vertical Navigation bar */
+
+a:link{
+	color: white;
+}
+a:visited{
+	color: white;
+}
+a:hover{
+	color: red;
+}
+a:active{
+	color: white;
+}
+nav{
+	width:100%;
+	background:black;
+	overflow: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+}
+nav ul{
+	padding:0;
+	margin:0;
+	list-style: none;
+	text-align: center
+}
+nav li{
+	display: inline-block;
+	color: white;
+	font-weight: bold;
+}
+nav a{
+	text-decoration: none;
+	width: 100px;
+	display: block;
+	text-decoration: none;
+	font-family: 'Libre Franklin', sans-serif;
+	color:#f2f2f2;
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+}
+nav a:link{
+	color: white;
+}
+nav a:visited{
+	color: white;
+}
+nav a:hover{
+	color: red;
+}
+nav a:active{
+	color: gray;
+}
+#home-hero{
+	background-image: url(images/clock.jpg);
+	height: 616px;
+	width: 616px;
+	background-size: cover;
+	 display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+	background-repeat: no-repeat;
+	text-shadow: 2px 2px 2px black;
+}
+.fa-linkedin-square{
+	font-size: 1em;
+	color: skyblue;
+}
+.fa-envelope{
+	background-repeat: no-repeat;
+	color: skyblue;
+}
+.fa-github{
+	color:skyblue;
+}
+footer{
+	text-decoration: underline;
+	padding: 2em;
+	text-underline-offset: 10px;
+	color: white;
+	text-align: center;
+	border-top: 3px solid black;
+	padding: 10px;
+	clear: both;
+	font-family: 'Libre Franklin', sans-serif;
+	text-shadow: 2px 2px 2px black;
+	background-color: gray;
+}
+.footer-bottom{
+	background-color: gray;
+}
+
+/* CSS for Tablets */
+
+@media only screen and (max-width: 1024px){
+	h1{
+		font-size: 2em;
+	}
+}
+
+/* CSS for Smartphones */
+
+@media only screen and (max-width: 768px){
+	h1{
+		font-size: 1.5em;
+	}
+#home-hero{
+	display: none;
+}
+.img-fluid{
+	display: none;
+}
